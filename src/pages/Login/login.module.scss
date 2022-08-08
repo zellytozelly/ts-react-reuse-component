@@ -1,0 +1,19 @@
+@use '/src/styles/constants/colors';
+@use '/src/styles/mixins/responsive';
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: colors.$LOGIN_LIGHTBLUE;
+
+  .whiteBox {
+    width: 390px;
+    height: 733px;
+    padding: 56px;
+    background-color: colors.$WHITE;
+    border-radius: 30px;
+  }
+}
